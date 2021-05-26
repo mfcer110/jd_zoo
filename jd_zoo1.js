@@ -135,7 +135,7 @@ async function main() {
                     }
                 }
                 log("进入定时轮询主线任务，轮询间隔半小时")
-                await wait(1800000);
+                await wait(300000);
             }
         } else {
             log("初始化失败");
